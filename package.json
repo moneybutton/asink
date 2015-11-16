@@ -1,11 +1,33 @@
 {
   "name": "asink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like async/await, but asink/yield.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/standard"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanxcharles/asink.git"
   },
   "author": "Jake Archibald",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "5.3.1"
+  }
 }
