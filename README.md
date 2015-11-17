@@ -51,4 +51,8 @@ async function myfunc () {
 }
 ```
 asink lets you have most of the readability and writability gains in a form
-that works today without waiting for ES7.
+that works today without waiting for ES7. It is also maximally
+forwards-compatible in the sense that when async/await is actually available, a
+straightforward conversion of each asink function to the async/await pattern is
+possible by making each function async, removing the "return asink" line and
+corresponding closing brace and parenthesis, and making each yield an await.
