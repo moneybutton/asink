@@ -26,7 +26,7 @@
     "url": "https://github.com/ryanxcharles/asink.git"
   },
   "author": "Jake Archibald",
-  "license": "MIT",
+  "license": "BSD",
   "devDependencies": {
     "standard": "5.3.1"
   }
