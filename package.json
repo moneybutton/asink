@@ -1,6 +1,6 @@
 {
   "name": "asink",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Like async/await, but asink/yield.",
   "main": "index.js",
   "scripts": {
