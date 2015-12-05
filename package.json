@@ -1,6 +1,6 @@
 {
   "name": "asink",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Like async/await, but asink/yield.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "https://github.com/ryanxcharles/asink.git"
   },
-  "author": "Jake Archibald",
+  "author": "Ryan X. Charles <ryanxcharles@gmail.com>",
   "license": "BSD",
   "devDependencies": {
     "standard": "5.3.1"
