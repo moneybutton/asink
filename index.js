@@ -29,6 +29,9 @@ function spawn (genF, self) {
         next = nextF()
       } catch (e) {
         // finished with failure, reject the promise
+        if (typeof process !== 'undefined' && process.env && process.env.ASINK_LOG_ERRORS === 'true') {
+          console.error('asink error:', e)
+        }
         reject(e)
         return
       }
